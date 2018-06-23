@@ -1,0 +1,203 @@
+header {
+    height: 80px;
+     background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+}
+svg {
+    margin-left:-10px;
+    margin-top: 24px;
+    width: 32px;
+    height: 32px;
+}
+body { 
+    -webkit-font-smoothing: antialiased;
+    font: 1.475em Nevis, Sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color:#F9F9F9;
+}
+#back {
+    float: left;
+    margin-top: -20px;
+    width: 80px;
+}
+#navigation {}
+
+#navigation ul {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+}
+
+#navigation li {
+    font-size: 0.7em;
+    display: block;
+    float: right;
+    margin: 0;
+}
+
+#navigation .about {}
+
+#navigation a {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+#navigation .contact_spacing {
+    padding: 5px 25px;
+}
+
+#navigation .work_spacing {
+    padding: 5px 35px;
+}
+
+#navigation .about_spacing {
+    padding: 5px 33px;
+}
+
+#navigation a:hover {}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.box2 {
+    cursor: pointer;
+    width: 98.4px;
+    height: 26px;
+    margin: auto;
+    position: relative;
+    left: -106px;
+    top: -35px;
+    float: right;
+    border: 6px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+    border-image: linear-gradient(to right, #F5488D 0%, #EB617B 100%);
+    border-image-slice: 1;
+}
+
+#holder {
+    width: 70%;
+    margin: auto;
+}
+#container  {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.thumbnail-gallery {
+    
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .thumbnail-gallery > div {
+    display: table-row;
+  }
+
+  .thumbnail-gallery .thumbnail {
+    display: table-cell;
+      
+    
+  }
+@media screen and (max-width: 640px) {
+  /** reset all thumbnail gallery elements to display as block and fill screen **/
+  .thumbnail-gallery,
+  .thumbnail-gallery > div,
+  .thumbnail-gallery .thumbnail {
+    display: block;
+    width: 100%;
+  }
+}
+img {
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+        
+}
+.thumbnail {
+    /*background-image: url("../Img/gamification.png");*/
+    
+    background-repeat: no-repeat;
+    
+}
+.thumbnailbox {
+     background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+    
+    width: 100%;
+    height: 100%;
+}
+.even {
+    background: -webkit-linear-gradient(left, #F5488D  , #EB617B  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F5488D, #EB617B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5488D, #EB617B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5488D , #EB617B); /* Standard syntax */ 
+}
+h4 {
+    
+    width: 150px;
+    font-size: 0.7em;
+    margin: 0;
+    color: white;
+    padding:0;
+    padding-top: 70px;
+    padding-left: 50px;
+
+}
+h3 {
+   width: 300px;
+    font-size: 1.2em;
+    margin: 0;
+    color: white;
+    padding:0;
+    padding-top: 2px;
+    padding-left: 50px;
+}
+.box2 {
+   cursor: pointer;
+	  width: 98.4px;
+	  height: 26px;
+      margin: auto;
+	  position: relative;
+    left:-106px;
+    top: -35px;
+    float:right;
+
+	  border: 6px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  border-image: linear-gradient(to right, #F5488D 0%, #EB617B 100%);
+
+	  border-image-slice: 1;
+	
+}
+#headerfix {
+    height: 80px;
+     background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+}

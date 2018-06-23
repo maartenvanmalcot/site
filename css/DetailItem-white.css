@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Nevis;
+    src: url(font/nevis2.0.ttf);
+}
+
+header {
+    height: 80px;
+   background: -webkit-linear-gradient(left, #083358, #083358);
+    background: -o-linear-gradient(right, #083358, #083358);
+    background: -moz-linear-gradient(right, #083358, #083358);
+    background: linear-gradient(to right, #083358, #083358);
+}
+
+#container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+#section1,
+#section3 {
+    
+    background: #F4F4F4;
+    background-size: 50%;
+    background-position: right;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: #083358;
+    font: 1.475em Nevis, Sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+
+#navigation {}
+
+#navigation ul {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+}
+
+#navigation li {
+    font-size: 0.7em;
+    display: block;
+    float: right;
+    margin: 0;
+}
+
+#navigation .about {}
+
+#navigation a {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+#navigation .contact_spacing {
+    padding: 5px 25px;
+}
+
+#navigation .work_spacing {
+    padding: 5px 35px;
+}
+
+#navigation .about_spacing {
+    padding: 5px 33px;
+}
+
+#navigation a:hover {}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.box2 {
+    cursor: pointer;
+    width: 98.4px;
+    height: 26px;
+    margin: auto;
+    position: relative;
+    left: -106px;
+    top: -35px;
+    float: right;
+    border: 6px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+    border-image: linear-gradient(to right, #F5488D 0%, #EB617B 100%);
+    border-image-slice: 1;
+}
+
+.text-content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.image-content {
+    width: 100%;
+    height: auto;
+    
+}
+
+.text-content-left {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+
+.text-content-right {
+    margin-top: -13px;
+    height: 100%;
+    float: right;
+    width: 30%;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.stripe {
+    margin-top: 10px;
+    background-color: #083358;
+    width: 40px;
+    height: 5px;
+}
+
+p {
+    margin-top: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    width: 400px;
+    font-family: 'Roboto';
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    width: 400px;
+    font-family: 'Roboto';
+    font-size: 0.5em;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.text-content-right-first {
+    padding-top: 75px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nevis';
+    font-size: 0.6em;
+}
+
+.videoWrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    margin: 0;
+    padding: 0;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.secondary-images {
+   
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+}
+
+.images-container {
+  margin-top: 50px;
+}
+
+#headerfix {
+    height: 80px;
+     background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+}
+span {
+    color: white;
+    position: relative;
+    top: -29px;
+    left: 35px;
+    font-size: 0.7em;
+    color: #E4637C;
+    display:inline-block
+}
+#back {
+    float: left;
+    margin-top: -20px;
+    margin-right: 5px;
+    width: 25px;
+}
+.imageWrapper {
+    width: 100%;
+    height: auto;
+}
+.imageWrapper img{
+    width: 100%;
+    height: auto;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}

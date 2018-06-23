@@ -1,0 +1,98 @@
+header {
+    height: 80px;
+     background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+}
+svg {
+    margin-left:-10px;
+    margin-top: 24px;
+    width: 32px;
+    height: 32px;
+}
+body { 
+    -webkit-font-smoothing: antialiased;
+    font: 1.475em Nevis, Sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color:#F9F9F9;
+}
+section {
+    
+    
+    
+}
+#holder {
+    width: 70%;
+    margin: auto;
+}
+#container  {
+   
+    width: 70%;
+    
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    
+    
+    
+   
+    
+}
+#container2 {
+    width: 700px;
+    height: 394px;
+    margin: auto;
+}
+iframe {
+    
+}
+#description {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 330px;
+    background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+}
+#centerer {
+    width: 70%;
+    margin: auto;
+}
+h4 {
+    padding-top: 20px;;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 0.6em;
+}
+#description p {
+    
+    font-family: 'Jaldi', sans-serif;
+    font-size: 0.6em;
+    margin:0;
+    padding: 0;
+    color: white;
+}
+#image_container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    
+}
+ img {
+    width: 100%;
+    height: auto;
+    
+    
+}
+a{
+    
+    text-decoration: none;
+    color: #dbeaff;
+}

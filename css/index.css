@@ -1,0 +1,439 @@
+@font-face {
+    font-family: Nevis;
+    src: url(font/nevis2.0.ttf);
+}
+
+header {
+    
+    height: 80px;
+    
+}
+
+#container  {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+#section2 {
+    background-color: #F9F9F9;
+    
+}
+
+
+
+#section1, #section3 {
+    
+background:   -webkit-linear-gradient(left, #083358 , #083358 ); 
+  background: -o-linear-gradient(right, #083358, #083358); 
+  background: -moz-linear-gradient(right, #083358, #083358); 
+  background:  linear-gradient(to right, #083358 , #083358); 
+    background-size: 50%;
+    background-position: right;
+    
+}
+/*
+#section2 {
+    background-image: url(../Img/foto_maarten.png);
+    background-position: right center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+*/
+
+/*
+#section1 {
+    background-image: url(../Img/foto_maarten1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    
+}
+*/
+
+
+body { 
+    -webkit-font-smoothing: antialiased;
+    font: 1.475em Nevis, Sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+#navigation {
+  
+}
+#navigation ul {
+  margin: 0;
+  margin-top: 25px;  
+  padding: 0; 
+}
+#navigation li {
+   font-size: 0.7em;
+  
+  display: block;
+  float: right;
+  margin: 0;
+}
+#navigation .about{
+   
+}
+
+#navigation a {
+  
+  color: #FFFFFF;
+  display: block;
+  
+  text-decoration: none;
+  
+}
+#navigation .contact_spacing {
+    padding: 5px 25px;
+}
+#navigation .work_spacing {
+    padding: 5px 35px;
+}
+#navigation .about_spacing {
+    padding: 5px 33px;
+}
+#navigation a:hover {
+  
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after, 
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.aboutinfo {
+    font-size: 1.3em;
+    height: 400px;
+    width: 600px;
+    font-family: Roboto;
+    color: #F5F5F5;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.aboutinfo h2 {
+    font-weight: 300;
+    margin: 0;
+    
+}
+.aboutinfo .intro-name {
+    font-family: 'Nevis';
+}
+.aboutinfo h3{
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    
+    padding: 0;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 0.5em;
+    height: 400px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.01);
+    color: #F5F5F5;
+}
+.box {
+    cursor: pointer;
+	  width: 98.4px;
+	  height: 26px;
+      margin: auto;
+	  position: relative;
+    left:-215px;
+    top: -35px;
+    float:right;
+
+	  border: 6px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  border-image: linear-gradient(to right, #F5488D 0%, #EB617B 100%);
+	  border-image-slice: 1;
+	
+}
+.box2 {
+   cursor: pointer;
+	  width: 98.4px;
+	  height: 26px;
+      margin: auto;
+	  position: relative;
+    left:-106px;
+    top: -35px;
+    float:right;
+
+	  border: 6px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  border-image: linear-gradient(to right, #F5488D 0%, #EB617B 100%);
+
+	  border-image-slice: 1;
+	
+}
+.box3 {
+   cursor: pointer;
+	  width: 98.4px;
+	  height: 26px;
+      margin: auto;
+	  position: relative;
+    left:2px;
+    top: -35px;
+    float:right;
+
+	  border: 6px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #F5488D 0%, #EB617B 100%);
+	  border-image: linear-gradient(to right, #F5488D 0%, #EB617B 100%);
+
+	  border-image-slice: 1;
+	
+}
+#container {
+    
+}
+.work_container {
+
+    
+}
+.framework_left {
+    
+    margin-top: 14%;
+    float:left;
+     width: 250px;
+     width: 25%;
+    border: 7px solid transparent;
+     height: 400px; 
+    
+    
+    
+	  -moz-border-image: -moz-linear-gradient(left, #083358 0%, #083358  100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #083358 0%, #083358 100%);
+	  border-image: linear-gradient(to right, #083358 0%, #083358 100%);
+   -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+    
+	  border-image-slice: 1;
+    
+	  position: relative;
+}
+.framework_right {
+    margin: 0;
+    padding: 0;
+     margin-top: 14%;
+    float: right;
+     width: 250px;
+     width: 25%;
+    border: 6px solid transparent;
+      height: 400px;
+    
+	  -moz-border-image: -moz-linear-gradient(left, #083358 0%, #083358  100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #083358 0%, #083358 100%);
+	  border-image: linear-gradient(to right, #083358 0%, #083358 100%);
+    -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+
+	  border-image-slice: 1;
+    position: relative;
+    
+	  
+}
+.framework_left_mid, .framework_right_mid {
+   cursor: pointer;
+    width: 225px;
+    width: 90%;
+    height: 375px; 
+    height: 93%;
+    background: -webkit-linear-gradient(left, #F5488D  , #EB617B  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F5488D, #EB617B ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5488D, #EB617B ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5488D , #EB617B ); /* Standard syntax */
+   -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+    
+    
+    
+    
+    
+  /*position : relative;*/
+  background-color : yellow;
+  /*  display:none; */
+  /*width:15px;
+  height:15px;*/
+  
+  
+}
+.animation_container:hover #follower { display:block; }
+
+
+.animation_container
+{  
+}
+
+
+.framework_mid {
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+     width: 250px;
+    width: 25%;
+      height: 400px;
+   
+    
+	   background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */
+    -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.1);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.1);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.1);
+	  
+    
+    
+}
+
+#headerfix {
+    height: 80px;
+     background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */ 
+}
+h3, h4 {
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+        
+}
+.framework_mid_text {
+    padding-top: 39px;
+}
+.contactinfo {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 800px;
+    
+    color: #F5F5F5;
+    
+}
+.contact-text {
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    font-size: 0.5em;
+    padding-bottom: 10px;
+   
+    color: #F5F5F5;
+}
+.contactinfo h5{
+    
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    color: #F5F5F5;
+}
+.contactinfo form {
+    font-size: .7em;
+    font-family: 'Roboto';
+}
+.contactinfo form p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.6em;
+    margin:0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.contactinfo form input {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.7em;
+    color: white;
+    width: 100%;
+    margin:0;
+    margin-bottom: 20px;
+    padding:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    border: 1px solid white;
+    background: transparent;
+}
+.contactinfo form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    color: white;
+    border: 1px solid white;
+   font-family: 'Roboto';
+    resize: none;
+    background: transparent;
+}
+.contactinfo form  input[type=submit] {
+    margin-top: 40px;
+    font: 1em Nevis;
+    height: 60px;
+    width: 174px;
+   
+    border: none;
+    color: white;
+    
+    text-decoration: none;
+    
+    
+    background: -webkit-linear-gradient(left, #F5488D , #EB617B  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,#F5488D , #EB617B ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5488D , #EB617B ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5488D , #EB617B ); /* Standard syntax */ 
+    -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+    
+}
+.email {
+    
+    margin-top: 40px;
+    font: 0.6em Nevis;
+    height: 40px;
+    width: 274px;
+    font-weight: 300;
+    border: none;
+    color: white;
+    
+    text-decoration: none;
+    
+    
+    background: -webkit-linear-gradient(left, #F5488D , #EB617B  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,#F5488D , #EB617B ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5488D , #EB617B ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5488D , #EB617B ); /* Standard syntax */ 
+    -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+}
+.email p {
+    letter-spacing: 1px;
+    padding-top: 10.5px;
+    margin-left: 18px;
+}

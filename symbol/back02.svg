@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 51 26">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke: url(#New_Gradient_Swatch_4);
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: square;
+      }
+
+      .cls-2 {
+        stroke: url(#New_Gradient_Swatch_4-2);
+      }
+
+      .cls-3 {
+        stroke: url(#New_Gradient_Swatch_4-3);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_4" data-name="New Gradient Swatch 4" x1="3" y1="13" x2="50" y2="13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f04888"/>
+      <stop offset="1" stop-color="#e6617b"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_4-2" x1="41.26" y1="-34.57" x2="60.29" y2="-34.57" gradientTransform="matrix(0.87, 0.13, 0.13, 0.87, -31.06, 31.06)" xlink:href="#New_Gradient_Swatch_4"/>
+    <linearGradient id="New_Gradient_Swatch_4-3" x1="163.47" y1="-40.56" x2="142.85" y2="-37.35" gradientTransform="matrix(-0.87, 0.13, -0.13, 0.87, 135.49, 31.06)" xlink:href="#New_Gradient_Swatch_4"/>
+  </defs>
+  <title>back02</title>
+  <g id="video_test_2" data-name="video test 2">
+    <line class="cls-1" x1="3" y1="13" x2="50" y2="13"/>
+    <line class="cls-2" x1="3.33" y1="12.87" x2="13.1" y2="3.1"/>
+    <line class="cls-3" x1="13.1" y1="22.87" x2="3.33" y2="13.1"/>
+  </g>
+</svg>
