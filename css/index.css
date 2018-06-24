@@ -202,7 +202,7 @@ body {
 }
 .framework_left {
     
-    margin-top: 14%;
+    /*margin-top: 14%;*/
     float:left;
      width: 250px;
      width: 25%;
@@ -225,7 +225,7 @@ box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
 .framework_right {
     margin: 0;
     padding: 0;
-     margin-top: 14%;
+     /*margin-top: 14%;*/
     float: right;
      width: 250px;
      width: 25%;
@@ -291,17 +291,22 @@ box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
     width: 25%;
       height: 400px;
    
-    
-	   background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #083358, #083358); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #083358, #083358); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #083358 , #083358); /* Standard syntax */
+    /*
+	   background: -webkit-linear-gradient(left, #083358 , #083358 );
+  background: -o-linear-gradient(right, #083358, #083358); 
+  background: -moz-linear-gradient(right, #083358, #083358); 
+  background: linear-gradient(to right, #083358 , #083358); 
     -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.1);
 -moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.1);
 box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.1);
-	  
-    
-    
+	  */
+      background: -webkit-linear-gradient(left, #F5488D  , #EB617B  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F5488D, #EB617B ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5488D, #EB617B ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5488D , #EB617B ); /* Standard syntax */
+   -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
 }
 
 #headerfix {
@@ -436,4 +441,15 @@ box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
     letter-spacing: 1px;
     padding-top: 10.5px;
     margin-left: 18px;
+}
+.work_container {
+    perspective: 80px;
+}
+#inner {
+    transition: transform 0.5s;
+}
+#foto {
+    width: 190px;
+    height: 200px;
+    float:right;
 }

@@ -64,6 +64,7 @@ body {
 #navigation {
   
 }
+
 #navigation ul {
   margin: 0;
   margin-top: 25px;  
@@ -254,4 +255,68 @@ p:hover {
   padding: 0;
 }
 
+
+#navigation2 {
+  
+}
+
+#navigation2 ul {
+  margin: 0;
+  margin-top: 25px;  
+  padding: 0; 
+}
+#navigation2 li {
+   font-size: 0.6em;
+  
+  display: block;
+  float: right;
+  margin: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aliceblue;
+    
+  
+}
+#navigation2 .active a {
+    color: white;
+   
+    
+}
+#navigation2 .active {
+     background: -webkit-linear-gradient(left, #F5488D  , #EB617B  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F5488D, #EB617B ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5488D, #EB617B ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5488D , #EB617B ); /* Standard syntax */
+    
+    
+     -webkit-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+-moz-box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
+    
+}
+#navigation2 .about{
+   
+}
+
+#navigation2 a {
+  
+  color: #0B3457;
+  display: block;
+  
+  text-decoration: none;
+  
+}
+#navigation2 .contact_spacing {
+    padding: 5px 25px;
+}
+#navigation2 .work_spacing {
+    padding: 5px 35px;
+}
+#navigation2 .about_spacing {
+    padding: 5px 33px;
+}
+#navigation2 a:hover {
+  
+}
 

@@ -21,32 +21,57 @@
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="css/photography.css">
 
-   <style>
-       body {
-           overflow: scroll;
-       }
-       .full-img-container {
-           margin-top: 5%;
-           margin-left: 20%;
-           margin-right: 20%;
-           margin-bottom: 5%;
-       }
-       img {
-           width: 100%;
-           height: auto;
-       }
-    
+    <style>
+        body {
+            overflow: scroll;
+        }
+        
+        .full-img-container {
+            margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 5%;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+    <script>
+        $( document ).ready(function() {
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        
+        var folder = getParameterByName('folder');
+        var id = getParameterByName('id');
+        
+        var image = 'Img/' + folder + '/' + id + '.jpg';
+        
+        
+    
+        
+        document.body.innerHTML += '<div class="full-img-container"><img src="'+ image+'"></div>'
+        });
+        
+    </script>
+    
 </head>
 
 <body>
-    <div class="full-img-container">
-        <img src="Img/photography/hires/Charlotte2.jpg">
-    </div>
-   
+  
+    
+
 </body>
 
 </html>
