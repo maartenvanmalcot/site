@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Nevis;
+    src: url(font/nevis2.0.ttf);
+}
+
 header {
     height: 80px;
      background: -webkit-linear-gradient(left, #083358 , #083358 ); /* For Safari 5.1 to 6.0 */
