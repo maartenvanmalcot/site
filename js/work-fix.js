@@ -4,7 +4,8 @@
 
 $(document).ready(function () {
    $('.box2').click(function() {
-    window.open('index.html#secondPage');
+    
+       location.href ='index.html#secondPage';
 });
 
 

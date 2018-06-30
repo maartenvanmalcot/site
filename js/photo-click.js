@@ -1,9 +1,18 @@
+// Handler for .ready() called.
+$(document).ready(function () {
 
-  // Handler for .ready() called.
-    function photoclick () {
-        
-        
-        
-        window.location.href = 'photography-full-size?folder='+folder+'&id=' + id;
-         console.log('lick');
-    }
+
+
+    $('.others').click(function () {
+        window.location.href = 'photography--others.html'
+    });
+
+    $('.aerial').click(function () {
+        window.location.href = 'photography--aerial.html'
+    });
+
+    $('.portrait').click(function () {
+        window.location.href = 'photography--portrait.html'
+    });
+
+});

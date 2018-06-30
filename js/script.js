@@ -29,7 +29,7 @@ $(document).ready(function () {
         location.href = 'Motion.html';
     });
     $(".framework_mid").click(function () {
-        window.open('photography--portrait.html');
+        location.href ='photography--portrait.html';
     });
 
     var height = $('#section2').attr('style');
