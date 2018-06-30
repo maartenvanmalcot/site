@@ -110,16 +110,85 @@ body {
 }
 .aboutinfo {
     font-size: 1.3em;
-    height: 400px;
-    width: 600px;
+    margin: 0  auto;
+    width: 100%;
     font-family: Roboto;
     color: #F5F5F5;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-}
-.aboutinfo h2 {
-    font-weight: 300;
-    margin: 0;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     
+    
+}
+.aboutinfo-left {
+  
+    width: 60%;
+    height: 450px;
+    float:left;
+    
+}
+.aboutinfo-right {
+    
+    float:right;
+    height: 450px;
+    width: 40%;
+   
+}
+.space {
+    
+    float:left;
+    width: 15%;
+}
+.content3 {
+    width: 85%;
+    float:right;
+    
+}
+.profilephoto {
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border-radius: 1px;
+    
+}
+.profilephoto img {
+    
+position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 195px;
+   height: 195px;
+   margin-top: -97px; /* Half the height */
+   margin-left: -97px; /* Half the width */
+    border-radius: 1px;
+}
+/*
+.aboutinfo-right-section2, .aboutinfo-left-section2 {
+    
+    position: relative;
+    
+    top: 200px;
+    background-color: green;
+    width: 300Px;
+    height: 100px;
+}
+*/
+.aboutinfo h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 7px;
+        
+    font-size: 0.50em;
+    
+}
+h1 {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 7px;
+        
+    font-size: 0.65em; 
 }
 .aboutinfo .intro-name {
     font-family: 'Nevis';
@@ -130,10 +199,10 @@ body {
     letter-spacing: 0.8px;
     
     padding: 0;
-    padding-top: 50px;
+    
     margin: 0;
-    font-size: 0.5em;
-    height: 400px;
+    font-size: 0.4em;
+    
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.01);
     color: #F5F5F5;
 }

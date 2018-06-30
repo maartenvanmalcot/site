@@ -29,9 +29,24 @@ $(document).ready(function () {
         location.href = 'Motion.html';
     });
     $(".framework_mid").click(function () {
-        window.open('photography.html');
+        window.open('photography--portrait.html');
     });
 
+    var height = $('#section2').attr('style');
+    var heightnumber = height.substr(8, 3);
+    var heightrealnumber = parseInt(heightnumber, 10);
+    var heightrealnumberNoheader = heightrealnumber - 80;
+    
+    var margintop = heightrealnumberNoheader - ((heightrealnumberNoheader / 2) + 200);
+    console.log(margintop);
+    $("#work_container").css("margin-top", margintop);
+    
+   
+
+    var getNumericPart = function (id) {
+        var $num = id.replace(/[^\d]+/, '');
+        return $num;
+    }
 
 
 
@@ -116,26 +131,28 @@ $(document).ready(function () {
 
     //load animation
 
-    var container = document.getElementsByClassName("section2")[0];
+    var container = document.getElementsByClassName("framework_mid")[0];
     var inner = document.getElementById('inner');
     var mouse = {
-  _x: 0,
-  _y: 0,
-  x: 0,
-  y: 0,
-  updatePosition: function(event) {
-    var e = event || window.event;
-    this.x = e.clientX - this._x;
-    this.y = (e.clientY - this._y) * -1;
-  },
-  setOrigin: function(e) {
-    this._x = e.offsetLeft + Math.floor(e.offsetWidth/2);
-    this._y = e.offsetTop + Math.floor(e.offsetHeight/2);
-  },
-  show: function() { return '(' + this.x + ', ' + this.y + ')'; }
-}
-// Track the mouse position relative to the center of the container.
-mouse.setOrigin(container);
+            _x: 0,
+            _y: 0,
+            x: 0,
+            y: 0,
+            updatePosition: function (event) {
+                var e = event || window.event;
+                this.x = e.clientX - this._x;
+                this.y = (e.clientY - this._y) * -1;
+            },
+            setOrigin: function (e) {
+                this._x = e.offsetLeft + Math.floor(e.offsetWidth / 2);
+                this._y = e.offsetTop + Math.floor(e.offsetHeight / 2);
+            },
+            show: function () {
+                return '(' + this.x + ', ' + this.y + ')';
+            }
+        }
+        // Track the mouse position relative to the center of the container.
+    mouse.setOrigin(container);
 
     var onMouseEnterHandler = function (event) {
         update(event);
@@ -154,27 +171,26 @@ mouse.setOrigin(container);
     container.onmousemove = onMouseMoveHandler;
 
     var counter = 0;
-var updateRate = 10;
-var isTimeToUpdate = function() {
-  return counter++ % updateRate === 0;
-};
-    
-    var update = function(event) {
-  mouse.updatePosition(event);
-  updateTransformStyle(
-    (mouse.y / inner.offsetHeight/2).toFixed(2),
-    (mouse.x / inner.offsetWidth/2).toFixed(2)
-  );
-};
+    var updateRate = 10;
+    var isTimeToUpdate = function () {
+        return counter++ % updateRate === 0;
+    };
 
-var updateTransformStyle = function(x, y) {
-  var style = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
-  inner.style.transform = style;
-  inner.style.webkitTransform = style;
-  inner.style.mozTransform = style;
-  inner.style.msTransform = style;
-  inner.style.oTransform = style;
-};
+    var update = function (event) {
+        mouse.updatePosition(event);
+        updateTransformStyle(
+            (mouse.y / inner.offsetHeight / 2).toFixed(2), (mouse.x / inner.offsetWidth / 2).toFixed(2)
+        );
+    };
+
+    var updateTransformStyle = function (x, y) {
+        var style = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
+        inner.style.transform = style;
+        inner.style.webkitTransform = style;
+        inner.style.mozTransform = style;
+        inner.style.msTransform = style;
+        inner.style.oTransform = style;
+    };
 
 
 
