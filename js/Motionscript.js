@@ -45,6 +45,10 @@ $(document).ready(function(){
      "background-image": "url('Img/machine/sluitelbeeld.jpg')", 
      "background-size": "100%"
      });
+    $('.item11').css({ 
+     "background-image": "url('Img/facefake/facefake.png')", 
+     "background-size": "100%"
+     });
     $('.item1').css({ 
      "background-image": "url('Img/Demo real/sleutelbeeld.png')", 
      "background-size": "100%"
@@ -82,6 +86,9 @@ $(document).ready(function(){
     });
     $('.item10').click(function() {
     window.location = "machine.html";
+    });
+    $('.item11').click(function() {
+    window.location = "facefake.html";
     });
     $('.item1').click(function() {
     window.location = "reel.html";
