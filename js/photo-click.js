@@ -14,5 +14,8 @@ $(document).ready(function () {
     $('.portrait').click(function () {
         window.location.href = 'photography--portrait.html'
     });
+    $('.event').click(function () {
+        window.location.href = 'photography--event.html'
+    });
 
 });
