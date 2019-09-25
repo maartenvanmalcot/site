@@ -319,4 +319,16 @@ box-shadow: 4px 3px 21px 3px rgba(31,31,31,0.2);
 #navigation2 a:hover {
   
 }
+h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    width: 400px;
+    font-family: 'Roboto';
+    font-size: 0.5em;
+    font-weight: 300;
+    padding-top: 20px;
+    
+}
 
