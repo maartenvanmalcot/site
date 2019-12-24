@@ -30,19 +30,19 @@ $(document).ready(function(){
     
     /*$('.item3').css({'background-image': 'url("Img/Jubelparkwebsite/sleutelbeeld-01.png")'});*/
      $('.item7').css({ 
-     "background-image": "url('Img/sportkompas/thumbnail.png')", 
+     "background-image": "url('')", 
      "background-size": "100%"
      });
      $('.item8').css({ 
-     "background-image": "url('Img/Aftermovie-handsup/sluitelbeeld.jpg')", 
+     "background-image": "url('')", 
      "background-size": "100%"
      });
      $('.item9').css({ 
-     "background-image": "url('Img/ideation/tumbnail.jpg')", 
+     "background-image": "url('')", 
      "background-size": "100%"
      });
      $('.item10').css({ 
-     "background-image": "url('Img/machine/sluitelbeeld.jpg')", 
+     "background-image": "url('Img/facefake/facefake.png')", 
      "background-size": "100%"
      });
     $('.item11').css({ 
@@ -50,23 +50,23 @@ $(document).ready(function(){
      "background-size": "100%"
      });
     $('.item1').css({ 
-     "background-image": "url('Img/Demo real/sleutelbeeld.png')", 
+     "background-image": "url('Img/uzleuven.jpg')", 
      "background-size": "100%"
      });
     $('.item2').css({ 
-     "background-image": "url('Img/nappi promotie/sleutelbeeld.png')", 
+     "background-image": "url('Img/rubcyle.jpg')", 
      "background-size": "100%"
      });
      $('.item3').css({ 
-     "background-image": "url('Img/Mocap/sleutelbeeld.png')", 
+     "background-image": "url('Img/Aftermovie-handsup/sluitelbeeld.jpg')", 
      "background-size": "100%"
      });
     $('.item5').css({ 
-     "background-image": "url('Img/Motion design final works/sleutelbeeld.png')", 
+     "background-image": "url('Img/multec@work s1/sluitelbeeld03.jpg')", 
      "background-size": "100%"
      });
     $('.item4').css({ 
-     "background-image": "url('Img/multec@work s1/sluitelbeeld03.jpg')", 
+     "background-image": "url('Img/Demo Real/sleutelbeeld.png')", 
      "background-size": "100%"
      });
     $('.item6').css({ 
@@ -90,29 +90,30 @@ $(document).ready(function(){
     window.location = "aftermovie-handsup.html";
     });
     $('.item9').click(function() {
-    window.location = "ideation.html";
+    window.location = "tedxkuleuven.html";
     });
     $('.item10').click(function() {
-    window.location = "machine.html";
+    window.location = "facefake.html";
     });
     $('.item11').click(function() {
     window.location = "facefake.html";
     });
     $('.item1').click(function() {
-    window.location = "reel.html";
+    window.location = "uzleuven.html";
     });
     $('.item2').click(function() {
-    window.location = "nappi_promo.html";
+    window.location = "rubcycle.html";
     });
     $('.item3').click(function() {
-      
-    window.location = "mocap.html";
+        
+    
+    window.location = "aftermovie-handsup.html";
     });
     $('.item4').click(function() {
-    window.location = "multecatwork.html";
+    window.location = "reel.html";
     });
     $('.item5').click(function() {
-    window.location = "finalwork.html";
+    window.location = "multecatwork.html";
     });
     $('.item6').click(function() {
     window.location = "hyperlapse.html";
@@ -121,7 +122,7 @@ $(document).ready(function(){
     window.location = "UZLeuven.html";
     });
     $('.item13').click(function() {
-    window.location = "rubcyle.html";
+    window.location = "rubcycle.html";
     });
     
      
