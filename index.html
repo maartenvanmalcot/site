@@ -28,6 +28,21 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+
+
+
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/priority-nav-core.css">
+    
+
+
 </head>
 
 <body>
@@ -82,8 +97,8 @@ A user-centered mindset and sensitivity for design paired with web and app codin
 
 
                         </h3>
-                          
-                            <!--
+
+                        <!--
 My photography style is eclectic; my ideas and imagery are constantly evolving on the shoot. This, combined with the ability to connect and get to the core of his subjects, allows for my images to portray the personality and the essence of each person in my portraiture.
                     </h3>
                         <h2>How I work</h2>
@@ -91,28 +106,28 @@ My photography style is eclectic; my ideas and imagery are constantly evolving o
                         I work most times on a time for portfolio basis, This means the photographer agrees to provide the model with a number of edited pictures of the best photographs from the session, and a limited license to use those pictures in return for the model's time. The model can use the pictures on social media platform as long as she/he credits the photographer.
                         </h3>
                         
-                         --> 
+                         -->
 
                         <div class="aboutinfo-left-section2"></div>
                     </div>
-                    
+
                     <div class="aboutinfo-right">
                         <div class="space"></div>
                         <div class="content3">
-                            
+
                             <h2>Photography</h2>
-                        <h3>
+                            <h3>
                         
 
 My photography focuses on people, aerial and outdoor. I love to snap photos of beautiful people and beautiful places.  Together with various technologies and creativity, different places are presented in unique ways.
                         </h3>
- 
+
                             <h2>Motion design and video</h2>
-                        <h3>
+                            <h3>
                         With expertise in communication projects and experience in television and editorial work, I sculpt story's into an inspiring video or motion animations that remain fascinating until the last second.
                         </h3>
-                          
-                          <!--
+
+                            <!--
                         <h2>Working together</h2>
 
                         <h3>
@@ -120,17 +135,17 @@ My photography focuses on people, aerial and outdoor. I love to snap photos of b
                         </h3>
 -->
                             <!--<div class="profilephoto"><img src="img/portfolio_foto.jpg">   </div>-->
-                          
-                        <div class="aboutinfo-right-section2"></div>
+
+                            <div class="aboutinfo-right-section2"></div>
+                        </div>
                     </div>
+
+
+
+
+
+
                 </div>
-
-
-
-
-                        
-
-            </div>
 
         </section>
         <section id="section2" class="section animation_container section2">
@@ -160,12 +175,12 @@ My photography focuses on people, aerial and outdoor. I love to snap photos of b
                                 <h4 class="h4element">design<br>+<br>development</h4>
                             </div>
                         </div>
-                        <div  id="" class="framework_right">
+                        <div id="" class="framework_right">
                             <div id="follower" class="framework_right_mid">
                                 <h4>motion design<br>+<br>video</h4>
                             </div>
                         </div>
-                        <div  id="" class="framework_mid_b">
+                        <div id="" class="framework_mid_b">
                             <div id="" class="framework_mid">
                                 <h4 class="framework_mid_text">photography</h4>
                             </div>
@@ -246,34 +261,85 @@ If you have any other questions, I'll be happy to reply.-->
 
             </div>
         </section>
-    </div>
-     <script src="js/vanilla-tilt.js"></script>
-    <script type="text/javascript">
-	VanillaTilt.init(document.querySelector(".framework_mid"), {
-		max: 40,
-		speed: 200,
-        transform-style: preserve-3d
-	});
-    VanillaTilt.init(document.querySelector(".h4element"), {
-		
-        transform: translateZ(20px)   
-        
-	});    
-        
-        
-     
-        
-        VanillaTilt.init(document.querySelector(".framework_left"), {
-		max: 10,
-		speed: 200,
-            transform-style: preserve-3d
-	});
-        VanillaTilt.init(document.querySelector(".framework_right"), {
-		max: 10,
-		speed: 200,
-            transform-style: preserve-3d
-	});
-</script>
+        </div>
+            
+            
+        <script src="js/vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".framework_mid"), {
+                max: 40,
+                speed: 200,
+                transform - style: preserve - 3 d
+            });
+            VanillaTilt.init(document.querySelector(".h4element"), {
+
+                transform: translateZ(20 px)
+
+            });
+
+
+
+
+            VanillaTilt.init(document.querySelector(".framework_left"), {
+                max: 10,
+                speed: 200,
+                transform - style: preserve - 3 d
+            });
+            VanillaTilt.init(document.querySelector(".framework_right"), {
+                max: 10,
+                speed: 200,
+                transform - style: preserve - 3 d
+            });
+        </script>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+        <!--[if lte IE 9]>
+<script src="js/classList.js"></script>
+<script src="js/html5shiv.min.js"></script>
+<![endif]-->
+        <script src="../src/priority-nav.js"></script>
+
+  
+
+
+
+
+
+        <script>
+            /**
+             * Initiate priorityNav
+             */
+            var wrapper = document.querySelector(".nav-wrapper");
+            var nav = priorityNav.init({
+                mainNavWrapper: ".nav-wrapper", // mainnav wrapper selector (must be direct parent from mainNav)
+                mainNav: ".nav-ul", // mainnav selector. (must be inline-block)
+                navDropdownLabel: 'test',
+                navDropdownClassName: "nav__dropdown", // class used for the dropdown.
+                navDropdownToggleClassName: "nav__dropdown-toggle", // class used for the dropdown toggle.
+            });
+
+            var nav2 = priorityNav.init({
+                mainNavWrapper: ".topnav-wrapper", // mainnav wrapper selector (must be direct parent from mainNav)
+                mainNav: ".nav-ul", // mainnav selector. (must be inline-block)
+                navDropdownLabel: 'test2',
+                navDropdownClassName: "nav__dropdown", // class used for the dropdown.
+                navDropdownToggleClassName: "nav__dropdown-toggle", // class used for the dropdown toggle.
+            });
+        </script>
 </body>
 
 </html>

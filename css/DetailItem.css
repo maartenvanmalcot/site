@@ -237,3 +237,99 @@ span {
     text-decoration: none;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
+  .box {
+      display: none;
+      }
+    .box2 {
+      display: none;
+      }
+    .box3 {
+      display: none;
+      }
+    
+    ul {
+        display: inline-block;
+        
+        
+      }
+    
+    #container {
+        width: 90%;
+        
+        
+      }
+    .aboutinfo-left {
+        width: 90%;
+        
+        
+      }
+    
+    
+    .contactinfo
+    {
+        width: 90%;
+        
+        
+      }
+    h5 {
+        font-size: 2em;
+    }
+    
+    #back {
+        display: none;
+    }
+    span{
+        display: none;
+    }
+        
+    
+
+    
+    
+    
+    
+    
+    
+    
+    h3{
+        width: 90%;
+    }    
+    .text-content-right-first {
+     width: auto;
+    }
+    
+    .text-content-right{
+        font-size: 1em;
+    float: none;
+        width: auto;
+    
+    
+    
+    }
+    .text-content{
+        height: auto;
+    }
+    .text-content-left{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+    
+     }
